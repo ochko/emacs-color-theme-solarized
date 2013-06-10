@@ -265,6 +265,14 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
              (emacs-wiki-bad-link-face ((t (,@fmt-undr ,@fg-red))))
              (emacs-wiki-link-face ((t (,@fmt-undr ,@fg-blue))))
              (emacs-wiki-verbatim-face ((t (,@fmt-undr ,@fg-base00))))
+             ;; ediff
+             (ediff-fine-diff-A ((t (,@fg-orange))))
+             (ediff-fine-diff-B ((t (,@fg-green))))
+             (ediff-even-diff-A ((t (,@fg-base01 ,@fg-base03 ))))
+             (ediff-odd-diff-A ((t (,@fg-base01 ,@fg-base03 ))))
+             (ediff-even-diff-B ((t (,@fg-base01 ,@fg-base03 ))))
+             (ediff-odd-diff-B ((t (,@fg-base01 ,@fg-base03 ))))
+
              ;; eshell
              (eshell-ls-archive ((t (,@fg-magenta))))
              (eshell-ls-backup ((t (,@fg-yellow))))
